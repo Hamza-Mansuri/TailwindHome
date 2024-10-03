@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- linking stle.css file -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+            <!-- to make content to the center vet and horri -->
+<body class="bg-slate-300 grid place-content-center h-screen">
+    
+
+    <div>
+
+        <!-- // mx-auto right aur left se center -->
+
+        <!-- this is the div that contains both the div, so formalize this div first -->
+         <!-- flex ke saath uske baad prop -->
+          <!-- space pura calculate kr leti he left to rigth -->
+        <div class="p-6 mx-auto max-w-xl flex items-center rounded-xl shadow-2xl bg-white space-x-2 mt-5">
+
+            <!-- this div fo rimage -->
+            <div> 
+                <img class="h-15 w-20 rounded-xl"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Physics_wallah_logo.jpg/800px-Physics_wallah_logo.jpg" alt="">
+            </div>
+
+            <!-- this div for content -->
+            <div class="text-black p-4 font-medium">
+                
+                <h2 class="text-2xl">Tailwind Css</h2>
+                <p class="text-blue-700 text-base">By Hamza Mansuri</p>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+    <div class="my-6">
+
+        <div class="p-8 mx-auto flex items-center shadow-xl bg-orange-300 max-w-xl space-x-2 rounded-xl space-y-4">
+
+            <div>
+
+                <img class="flex-1 h-30 w-35 rounded-2xl"
+                src="https://images.pexels.com/photos/6077368/pexels-photo-6077368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+
+                <div class="p-6">
+
+                    <h4 class="text-2xl text-black">Tailwind css</h4>
+                    <p class="text-xl text-blue-800">By Hamza mAnsuri</p>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!-- marghin:- mt -sirf top, my- upr aur niche, mx- left and right -->
+    <button class="bg-blue-300 text-center p-4 rounded-2xl shadow-xl hover:bg-blue-500 my-4 hover:text-orange-800 dark:bg-red-500 md:max-w-lg">
+        Buy now
+    </button>
+
+    <div class="my-4 bg-amber-300 rounded-xl shadow-2xl p-3 md:max-w-lg">
+
+                                                            <!-- mobile First Approach -->
+        <h3 class="text-center text-black sm:text-red-600 lg:text-green-500 xl:text-blue-500">breakpoints with screen size</h3>
+    </div>
+
+    <div>
+
+        <div class="my-4 bg-lime-200 rounded-xl shadow-2xl mx-auto max-w-lg overflow-hidden md:flex">
+
+            <!-- act as a wrapper -->
+            <div class="md:flex"> 
+
+                <div>
+                                                    <!-- image div ke andr set ho jaata he by- object cover -->
+                    <img class="rounded-2xl shadow-lg object-cover h-60 w-full md:h-full md:w-60"
+                    src="https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                </div>
+                
+            </div>
+            <div class="p-3">
+                
+                <div class="p-4 text-blue-500 uppercase tracking-wide text-lg font-semibold">
+                    An awesome Card
+                </div>
+
+                <a href="#" class="block my-2 text-lg font-medium hover:text-violet-500">
+                    Tailwind css is very nice and 
+                    <span class="bg-yellow-400 p-[2px] py-14px">easy</span>
+                </a>
+                <p class="mt-3 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            </div>  
+        </div>
+        
+    </div>
+
+</body>
+</html>
